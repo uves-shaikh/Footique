@@ -1,5 +1,6 @@
 import "./Banner.scss";
-import BannerIMG from '../../../assets/banner-img.png'
+import BannerIMG from '../../../assets/products/sports-prod-3.png'
+// import BannerIMG from '../../../assets/banner-img.png'
 
 const Banner = () => {
     return <div className="hero-banner">
