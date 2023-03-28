@@ -41,7 +41,7 @@ const Header = () => {
                         <li>About</li>
                         <li>Categories</li>
                     </ul>
-                    <div className="center" onClick={() => navigate("/")}>ShoeStore</div>
+                    <div className="center" onClick={() => navigate("/")}>Footique</div>
                     <div className="right">
                         <BsSearch onClick={() => setShowSearch(true)}/>
                         <AiOutlineHeart />
