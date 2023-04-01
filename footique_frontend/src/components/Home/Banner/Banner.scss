@@ -79,6 +79,7 @@
                 justify-content: center;
                 gap: 20px;
                 .banner-cta{
+                    user-select: none;
                     text-transform: uppercase;
                     font-size: 13px;
                     font-weight: 500;
@@ -89,8 +90,19 @@
                         background-color: white;
                         color: black;
                     }
-                    &:hover{
-                        opacity: 0.6;
+                    &.v2:hover{
+                        background-color: transparent;
+                        color: white;
+                    }
+                    &.v2:active{
+                        background-color: rgb(88, 88, 201);
+                    }
+                    &:hover {
+                        background-color: white;
+                        color: black;
+                    }
+                    &:active {
+                        background-color: rgb(88, 88, 201);
                     }
                 }
             }

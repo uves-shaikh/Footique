@@ -25,11 +25,15 @@ Icon
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+env
+.env
 $RECYCLE.BIN/
 *.cab
 *.msi
 *.msm
 *.msp
+package-lock.json
+env
 
 
 ############################

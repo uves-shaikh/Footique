@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom'
 
 import { BsSearch } from 'react-icons/bs'
 import { AiOutlineShoppingCart } from 'react-icons/ai'
-import { AiOutlineHeart } from 'react-icons/ai'
 
 import Search from "./Search/Search";
 import Cart from '../Cart/Cart'
@@ -44,7 +43,6 @@ const Header = () => {
                     <div className="center" onClick={() => navigate("/")}>Footique</div>
                     <div className="right">
                         <BsSearch onClick={() => setShowSearch(true)}/>
-                        <AiOutlineHeart />
                         <span className="cart-icon" onClick={() => setShowCart(true)}>
                             <AiOutlineShoppingCart />
                             {!!cartCount && <span>{cartCount}</span>}

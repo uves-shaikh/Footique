@@ -36,9 +36,7 @@ const Footer = () => {
                 <div className="title">Categories</div>
                 <span className="text">Sports</span>
                 <span className="text">Formals</span>
-                <span className="text">Loafers</span>
                 <span className="text">Boots</span>
-                <span className="text">Sandles</span>
                 <span className="text">Sneakers</span>
             </div>
             <div className="col">

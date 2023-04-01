@@ -56,9 +56,6 @@
                     text-transform: uppercase;
                     font-size: 14px;
                 }
-                &:hover {
-                    opacity: 0.5;
-                }
             }
         }
 
@@ -85,6 +82,12 @@
                 color: white;
                 background-color: #8e2de2;
                 border-bottom: 3px solid #6516aa;
+                &:hover {
+                    background-color: rgb(120, 131, 228);
+                }
+                &:active {
+                    background-color: darkblue;
+                }
             }
         }
         .cart-footer {
@@ -119,6 +122,12 @@
                     color: white;
                     background-color: #8e2de2;
                     border-bottom: 3px solid #6516aa;
+                    &:hover {
+                        background-color: rgb(120, 131, 228);
+                    }
+                    &:active {
+                        background-color: darkblue;
+                    }
                 }
             }
         }
