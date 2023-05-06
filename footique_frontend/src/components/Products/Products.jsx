@@ -11,7 +11,7 @@ const Products = ({ products, innerPage, headingText }) => {
           // <Product />
           <Product key={item.id} id={item.id} data={item.attributes} />
         )):
-        <div>no data found</div>
+        <div>All products are uploaded on strapi</div>
         }
       </div>
     </div>

@@ -15,7 +15,7 @@ const Category = ({ categories }) => {
               return (
                 <div key={item.id} className="category" onClick={() => navigate(`/category/${item.id}`)}>
                   {item.id}
-                  <img src={process.env.REACT_APP_STORE_URL + item.attributes.img.data.attributes.url} alt="" />
+                  <img src={item.attributes.img.data.attributes.url} alt="" />
                 </div>
               )
             }) : (

@@ -11,7 +11,7 @@ const CartItem = () => {
             {cartItems.map((item) => (
                 <div key={item.id} className="cart-product">
                     <div className="img-container">
-                        <img src={process.env.REACT_APP_STORE_URL + item.attributes.img.data[0].attributes.url} alt="" />
+                        <img src={item.attributes.img.data[0].attributes.url} alt="" />
                     </div>
                     <div className="prod-details">
                         <span className="name">{item.attributes.title}</span>

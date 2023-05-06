@@ -115,6 +115,13 @@
                         @include md {
                             flex-grow: unset;
                         }
+                        &:hover {
+                            background-color: rgb(120, 131, 228);
+                        }
+            
+                        &:active {
+                            background-color: darkblue;
+                        }
                     }
                 }
 
